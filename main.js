@@ -13,7 +13,7 @@ if (answer.userGuessNumber === randomNumber) {
     console.log("Congratulation! You guess the right number");
 }
 else {
-    console.log("You guess the wrong number");
+    console.log("Try Again! You guess the wrong number");
 }
 ;
 console.log("Thanks for Playing!");
