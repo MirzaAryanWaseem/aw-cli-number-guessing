@@ -1,4 +1,5 @@
 #! /usr/bin/env node
+console.log("Welcome to our Game.");
 
 import inquirer from "inquirer";
 
