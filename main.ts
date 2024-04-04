@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-console.log("Welcome to our Game.");
+console.log("Welcome to Our Game.");
 
 import inquirer from "inquirer";
 
@@ -15,9 +15,9 @@ const answer = await inquirer.prompt([
 
 // Conditional Statement
 if (answer.userGuessNumber === randomNumber) {
-  console.log("Congratulation! You guess the right number");
+  console.log("Congratulation! You guess the right number.");
 } else {
-  console.log("Try Again! You guess the wrong number");
+  console.log("Try Again! You guess the wrong number.");
 };
 console.log("Thanks for Playing!");
 
