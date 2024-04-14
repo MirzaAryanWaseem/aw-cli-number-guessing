@@ -17,4 +17,4 @@ else {
     console.log("Try Again! You guess the wrong number.");
 }
 ;
-console.log("Thanks for Playing!");
+console.log("Thanks For Playing!");
