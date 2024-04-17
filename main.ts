@@ -3,13 +3,13 @@ console.log("Welcome to Our Game.");
 
 import inquirer from "inquirer";
 
-const randomNumber = Math.floor(Math.random() * 5 + 1);
+const randomNumber = Math.floor(Math.random() * 6 + 1);
 
 const answer = await inquirer.prompt([
   {
     name: "userGuessNumber",
     type: "number",
-    message: "Guess a number between 1-5",
+    message: "Guess a number between 1-6",
   },
 ]);
 
