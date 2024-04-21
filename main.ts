@@ -15,7 +15,7 @@ const answer = await inquirer.prompt([
 
 // Conditional Statement
 if (answer.userGuessNumber === randomNumber) {
-  console.log("Congratulation! You guess the right number.");
+  console.log("Congratulation! You  guess the right number.");
 } else {
   console.log("Try Again! You guess the wrong number.");
 };
