@@ -1,6 +1,7 @@
 #! /usr/bin/env node
-console.log("Welcome to Our Game.");
+import chalk from "chalk";
 import inquirer from "inquirer";
+console.log(chalk.bold.blue("\tWelcome to Our Game.\t"));
 const randomNumber = Math.floor(Math.random() * 6 + 1);
 const answer = await inquirer.prompt([
     {
