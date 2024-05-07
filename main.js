@@ -15,7 +15,7 @@ if (answer.userGuessNumber === randomNumber) {
     console.log("Congratulation! You guess the right number.");
 }
 else {
-    console.log("Try Again! You guess the wrong number.");
+    console.log(chalk.bold.red("Try Again! You guess the wrong number."));
 }
 ;
 console.log("Thanks For Playing!");
