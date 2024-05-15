@@ -2,7 +2,7 @@
 import chalk from "chalk";
 import inquirer from "inquirer";
 
-console.log(chalk.bold.blue("\tWelcome to Our Game.\t"));
+console.log(chalk.bold.blue("\tWelcome to Our Number Guessing Game.\t"));
 
 const randomNumber = Math.floor(Math.random() * 6 + 1);
 
