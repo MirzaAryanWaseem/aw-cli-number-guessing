@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-import chalk from "chalk";
+import chalk from "chalk"; // add styling and color
 import inquirer from "inquirer";
 console.log(chalk.bold.blue("\tWelcome to Our Number Guessing Game.\t"));
 const randomNumber = Math.floor(Math.random() * 6 + 1); //create a random number b/w 1-6
