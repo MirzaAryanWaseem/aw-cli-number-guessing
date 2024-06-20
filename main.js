@@ -7,7 +7,7 @@ const answer = await inquirer.prompt([
     {
         name: "userGuessNumber",
         type: "number",
-        message: "Guess a number between 1-6",
+        message: "Guess a number between 1-6", // this prints message
     }, //this is called object in array
 ]);
 // Conditional Statement
