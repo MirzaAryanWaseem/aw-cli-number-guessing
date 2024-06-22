@@ -6,7 +6,7 @@ const randomNumber = Math.floor(Math.random() * 6 + 1); //create a random number
 const answer = await inquirer.prompt([
     {
         name: "userGuessNumber",
-        type: "number", // tthis shows type of input taken
+        type: "number", // this shows type of input taken
         message: "Guess a number between 1-6", // this prints message
     }, //this is called object in array
 ]);
